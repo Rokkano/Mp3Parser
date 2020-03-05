@@ -38,12 +38,8 @@ namespace mp3parser
         }
 
 
+        
         public static void Main(string[] args)
-        {
-            string url = "https://serpapi.com/search?q=" + "cat" + "&tbm=isch&ijn=0";
-            JObject rss = JObject.Parse(Get(url));
-        }
-        public static void Main2(string[] args)
         {
 
             string path = "D:\\Fichiers_PERSO\\Music\\Autres\\";
